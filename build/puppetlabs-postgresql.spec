@@ -12,7 +12,7 @@ Buildarch: noarch
 Requires: simp-bootstrap >= 4.2.0
 Obsoletes: puppetlabs-postgresql-test
 
-Prefix: %{prefix}
+Prefix: /etc/puppet/environments/simp/modules
 
 %description
 This is the puppetlabs postgresql module as hosted at
